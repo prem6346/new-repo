@@ -12,6 +12,7 @@ newscriptinclude.prototype = {
     initialize: function() {
     },
 	//1st comment from studio
+        //2nd comment from Github
 
     type: 'newscriptinclude'
 };]]></script>
