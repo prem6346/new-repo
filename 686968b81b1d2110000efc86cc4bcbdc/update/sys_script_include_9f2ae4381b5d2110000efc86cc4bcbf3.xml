@@ -13,6 +13,7 @@ newscriptinclude.prototype = {
     },
 	//1st comment from studio
         //2nd comment from Github
+	//3rd comment from Studio
 
     type: 'newscriptinclude'
 };]]></script>
