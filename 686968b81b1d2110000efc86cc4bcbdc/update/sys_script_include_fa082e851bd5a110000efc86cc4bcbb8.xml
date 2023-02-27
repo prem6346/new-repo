@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_520575_my_new_ap.scriptinclude2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>scriptinclude2</name>
+        <script><![CDATA[var scriptinclude2 = Class.create();
+scriptinclude2.prototype = {
+    initialize: function() {
+    },
+	//1sst somment
+
+    type: 'scriptinclude2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 06:12:26</sys_created_on>
+        <sys_id>fa082e851bd5a110000efc86cc4bcbb8</sys_id>
+        <sys_name>scriptinclude2</sys_name>
+        <sys_package display_value="My new application" source="x_520575_my_new_ap">686968b81b1d2110000efc86cc4bcbdc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My new application">686968b81b1d2110000efc86cc4bcbdc</sys_scope>
+        <sys_update_name>sys_script_include_fa082e851bd5a110000efc86cc4bcbb8</sys_update_name>
+    </sys_script_include>
+</record_update>
