@@ -1,0 +1,2 @@
+- name: ServiceNow DevOps Change Automation
+  uses: ServiceNow/servicenow-devops-change@v1.35.2
