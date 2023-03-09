@@ -3,6 +3,9 @@ name: just-create-change
 on:
   workflow_dispatch:
   
+permissions: 
+  contents: read
+
 jobs:
    servicenow-change:
     name: change acceleration
