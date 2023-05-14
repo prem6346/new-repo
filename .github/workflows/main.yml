@@ -1,5 +1,5 @@
 name: first-wf
-'on': push
+'on': workflow_dispatch:
 jobs:
  deployment:
     runs-on: ubuntu-latest
