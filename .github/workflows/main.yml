@@ -1,5 +1,7 @@
+name: first-wf
+'on': push
 jobs:
-  deployment:
+ deployment:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy Stage
