@@ -40,4 +40,4 @@ jobs:
           changeCreationTimeOut: '3600' # optional, default is 3600
           abortOnChangeCreationFailure: true # optional, default is true
           abortOnChangeStepTimeout: true # optional, default is true
-          deployment-gate: '{"environment":"deploymentgate","jobName":"Deploy"}'
+          deployment-gate: '{"environment":"deploymentgate","jobName":"Change Acceleration"}'
