@@ -24,7 +24,7 @@ jobs:
    # needs: servicenow-artifact 
     steps:
       - name: ServiceNow DevOps Change
-        uses: ServiceNow/servicenow-devops-change@v1.38.0
+        uses: ServiceNow/servicenow-devops-change@v2.0.0
         with:
           devops-integration-user-name: ${{secrets.SN_DEVOPS_USER}}
           devops-integration-user-password: ${{secrets.SN_DEVOPS_PWD}}
