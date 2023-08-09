@@ -26,6 +26,7 @@ jobs:
       - name: ServiceNow DevOps Change
         uses: ServiceNow/servicenow-devops-change@v2.0.0
         with:
+          devops-integration-token: ${{ secrets.SN_DEVOPS_INTEGRATION_TOKEN }}
           devops-integration-user-name: ${{secrets.SN_DEVOPS_USER}}
           devops-integration-user-password: ${{secrets.SN_DEVOPS_PWD}}
           instance-url: ${{secrets.SNOW_DEVOPS_URL}}
